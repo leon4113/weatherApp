@@ -27,3 +27,4 @@ def get_weather():
         print(f"Temperature: {temp}°C")
     else:
         print("Error in the HTTP request")
+get_weather()
