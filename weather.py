@@ -10,7 +10,7 @@ def get_weather():
     Raises:
     None
     """
-    API_key = "49e50c7f6549a11b5a2d91fbb394091c"
+    API_key = "" #put your API key
     BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 
     city = input("Enter city name: ")
